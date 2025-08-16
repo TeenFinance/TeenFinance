@@ -1,0 +1,105 @@
+/* Fonte e cores principais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* fundo preto */
+    color: #e0e0e0; /* texto branco suave */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4caf50; /* verde médio */
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* leve sombra para destaque */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Menu de navegação */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #388e3c; /* verde mais escuro ao passar o mouse */
+    color: #ffffff;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px 25px;
+    background-color: #121212; /* preto levemente mais claro que o body para contraste */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #a5d6a7; /* verde claro para títulos, contraste legal */
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 25px;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Links dentro do conteúdo */
+a {
+    color: #81c784;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #a5d6a7;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 25px 20px;
+    background-color: #2e7d32; /* verde escuro */
+    color: white;
+    margin-top: 40px;
+    border-top: 2px solid #4caf50;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    main {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
