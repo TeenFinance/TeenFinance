@@ -1,0 +1,90 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.intro, .sobre {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.posts {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-card {
+  border: 2px solid #4CAF50;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+.post-card:hover {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.post-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 40px;
+}
